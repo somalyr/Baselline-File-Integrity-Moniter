@@ -19,5 +19,5 @@ Run fim.ps1
 - [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 
 
-**Inspired by Josh Madakor**
+
 
