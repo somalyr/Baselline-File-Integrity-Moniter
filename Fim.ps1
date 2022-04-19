@@ -72,7 +72,7 @@ elseif ($response -eq "B".ToUpper()) {
                 }
                 else {
                     # File file has been compromised!, notify the user
-                    Write-Host "$($hash.Path) has changed!!!" -ForegroundColor Yellow
+                    Write-Host "$($hash.Path) has changed! Oh No!" -ForegroundColor Yellow
                 }
             }
         }
@@ -81,7 +81,7 @@ elseif ($response -eq "B".ToUpper()) {
             $baselineFileStillExists = Test-Path -Path $key
             if (-Not $baselineFileStillExists) {
                 # One of the baseline files must have been deleted, notify the user
-                Write-Host "$($key) has been deleted!" -ForegroundColor DarkRed -BackgroundColor Gray
+                Write-Host "$($key) has been deleted! Oh No!" -ForegroundColor DarkRed -BackgroundColor Gray
             }
         }
     }
