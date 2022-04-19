@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-This is a  Powershell script used within a directory to check the integrity of files. The program helps explain and define "integrity" in cybersecurity regarding the CIA triaangle. If certain files in directory have been added, deleted, or even manipulated, the program will alert the user.
+This is a  Powershell script used within a directory to check the integrity of files. If certain files in directory have been added, deleted, or even manipulated, the program will alert the user. The program is meant to deepen the understanding of "integrity" in cybersecurity within the CIA triangle.
 
 
 
