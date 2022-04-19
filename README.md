@@ -1,20 +1,25 @@
-# FIM
-File Integrity Monitor (FIM)
+# File-Integrity-Monitor
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Start 
 
-Collect new Baseline, or
-Begin monitoring files with saved Baseline
+A mini Powershell script that checks the integrity of files within a directory. The program explores the definition of "integrity" in the field of cybersecurity, where files are maintained to be consistent and trustworthy of data. The program will output to the shell whether files in a certain directory have been created, manipulated, or even deleted.
 
-Collect new Baseline
-Calculate HASH value from target files
-Store the file|hash pairs in baseline.txt 
 
-Begin monitoring files with saved Baseline
-Load file:hash pairs from baseline.txt
+## Usage
 
-Continuously monitor file integrity
-Loop through each file target file, calculate the hash, and compare the file|hash to what is baseline.txt
+Run fim.ps1
 
-Notify user if a file is changed or deleted
-If a file's actual hash is different than what is recorded in the baseline, print to the screen (color), if a file has been changed or deleted. (integrity compromise)
+## Built With
+
+* [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2)
+
+
+## Technologies Used
+* [Windows 10](https://www.microsoft.com/en-us/software-download/windows10)
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/)
+* [Git Bash](https://git-scm.com/downloads)
+* [GitHub](https://github.com/)
+
+
+**Inspired by Josh Madakor**
+
