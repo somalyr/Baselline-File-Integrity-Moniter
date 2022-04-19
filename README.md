@@ -1,9 +1,8 @@
 # FIM
 File Integrity Monitor (FIM)
 
-Start
+Start 
 
-Ask user what they want to do:
 Collect new Baseline, or
 Begin monitoring files with saved Baseline
 
