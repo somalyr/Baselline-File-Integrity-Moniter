@@ -5,9 +5,6 @@
 This is a  Powershell script used within a directory to check the integrity of files. The program helps explain and define "integrity" in cybersecurity regarding the CIA triaangle. If certain files in directory have been added, deleted, or even manipulated, the program will alert the user.
 
 
-## Usage
-
-Run fim.ps1
 
 ## Built With
 
